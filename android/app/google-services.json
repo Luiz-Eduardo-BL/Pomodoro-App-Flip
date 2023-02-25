@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "859390645685",
+    "project_id": "pomodoro-94da6",
+    "storage_bucket": "pomodoro-94da6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859390645685:android:ed44aced555153160c35fc",
+        "android_client_info": {
+          "package_name": "com.example.flip_card"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859390645685-m6jap30uuc7ae1u8ck6rmt34ojbvnr9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc1fGe_9iLIpHZQWZQERncomo8EbBY7sY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859390645685-m6jap30uuc7ae1u8ck6rmt34ojbvnr9p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "859390645685-2ila4qdh5d7n7p9a6t64ich299jsfb1c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pomodoroFlip"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859390645685:android:2688941d06533a950c35fc",
+        "android_client_info": {
+          "package_name": "com.example.pomodoro_flip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859390645685-m6jap30uuc7ae1u8ck6rmt34ojbvnr9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc1fGe_9iLIpHZQWZQERncomo8EbBY7sY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859390645685-m6jap30uuc7ae1u8ck6rmt34ojbvnr9p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "859390645685-2ila4qdh5d7n7p9a6t64ich299jsfb1c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pomodoroFlip"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
