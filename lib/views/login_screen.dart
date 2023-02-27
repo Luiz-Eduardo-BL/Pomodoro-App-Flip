@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../components/size_config.dart';
 import '../components/themes.dart';
 import 'login_acount.dart';
+import 'registration_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -12,7 +13,6 @@ class LoginScreen extends StatelessWidget {
     SizeConfig().init(context);
 
     return Scaffold(
-      // backgroundColor sera usadoa a thirdColor do themes.dart
       backgroundColor: AppTheme.primaryColor,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
@@ -212,12 +212,7 @@ class LoginScreen extends StatelessWidget {
                         ),
                       ]),
                   onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const LoginAcount(),
-                      ),
-                    );
+                    Navigator.pushNamed(context, 'registration_screen');
                   },
                 ),
               ),
@@ -250,7 +245,13 @@ class LoginScreen extends StatelessWidget {
                       textAlign: TextAlign.center,
                     ),
                     onPressed: () {
-                      Navigator.pushNamed(context, 'RegistrationScreen');
+                      //vai me levar para registration_screen
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => RegistrationScreen(),
+                        ),
+                      );
                     },
                   ),
                 ],
